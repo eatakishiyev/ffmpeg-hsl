@@ -1,5 +1,7 @@
 package dto
 
 type Request struct {
-	RTSPUrl string
+	RTSPUrl              string
+	Transport            string
+	MeasurementPointUUID string `json:"measurementPointUUID"`
 }

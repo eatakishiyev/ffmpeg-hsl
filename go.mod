@@ -2,7 +2,10 @@ module hsl_proxy
 
 go 1.22.1
 
-require github.com/labstack/echo/v4 v4.12.0
+require (
+	github.com/labstack/echo/v4 v4.12.0
+	golift.io/ffmpeg v1.1.0
+)
 
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
